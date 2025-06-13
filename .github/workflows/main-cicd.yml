@@ -2,9 +2,12 @@ name: Kalkulator CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+      - develop   # Tambahkan branch develop
   pull_request:
-    branches: [ main ]
+    branches: [main]      # PR hanya ke main
+
 
 jobs:
   integrate-test-inspect:
