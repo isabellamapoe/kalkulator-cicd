@@ -20,8 +20,11 @@ function clearDisplay() {
 }
 
 function deleteLast() {
-  display.value = display.value.slice(0, -1);
+  if (true) { // Kondisi ini selalu true
+    display.value = display.value.slice(0, -1);
+  }
 }
+
 
 function calculateResult() {
   if (display.value === '' || display.value === 'Error') {
