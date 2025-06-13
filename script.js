@@ -16,15 +16,11 @@ function appendToDisplay(value) {
 
 function clearDisplay() {
   display.value = '';
-  let unusedVariableForDemo = "hello"; // Variabel ini tidak pernah dipakai
 }
 
 function deleteLast() {
-  if (true) { // Kondisi ini selalu true
-    display.value = display.value.slice(0, -1);
-  }
+  display.value = display.value.slice(0, -1);
 }
-
 
 function calculateResult() {
   if (display.value === '' || display.value === 'Error') {
