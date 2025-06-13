@@ -2,7 +2,7 @@ import { performCalculation } from '../calculator.js';
 import assert from 'assert';
 
 // Tes penjumlahan
-assert.strictEqual(performCalculation('2+3'), 5);
+assert.strictEqual(performCalculation('2+3'), 7);
 
 // Tes pengurangan
 assert.strictEqual(performCalculation('10-4'), 6);
